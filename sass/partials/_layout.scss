@@ -1,0 +1,50 @@
+body {
+  background-color: $e5-grey;
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title_container {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.col_default {
+  height: 250px;
+  width: 250px;
+  background-color: $off-white;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.103);
+}
+
+.col_hover {
+  background-color: white;
+  border: 3px solid $pink;
+}
+
+.col_active {
+  background-color: $pink;
+  border: 3px solid $white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $off-white;
+  font-size: 0.8em;
+  color: $neutral-grey;
+  padding: 0.5em;
+}
